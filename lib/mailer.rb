@@ -1,10 +1,11 @@
 require_relative 'smtp-tls'
 
 require 'net/smtp'
-MASTER_EMAIL = 'clonetroopa1996@gmail.com'
+
+
 # Responsible for mailing ticket information to a client
 class Mailer
-
+  MASTER_EMAIL = 'clonetroopa1996@gmail.com'
 
   def mail_to(addr, from, subj, body)
     # Format message from parameters
