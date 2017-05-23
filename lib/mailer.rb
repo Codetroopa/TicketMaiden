@@ -1,5 +1,4 @@
 require_relative 'smtp-tls'
-
 require 'net/smtp'
 
 
